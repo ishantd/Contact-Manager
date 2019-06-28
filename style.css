@@ -1,0 +1,68 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+#addcontact {
+    height: 80px;
+    /* background-color: grey; */
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+    align-content: center;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+#createnew {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: 1px solid rgb(66, 236, 94);
+    background-color: whitesmoke;
+}
+
+#createnew:hover {
+    background-color: rgb(66, 236, 94);
+    color: whitesmoke;
+}
+
+
+
+#remove {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: 1px solid rgb(240, 41, 34);
+    background-color: rgb(243, 17, 17);
+    color: whitesmoke;
+}
+
+#remove:hover {
+    background-color: rgb(180, 1, 1);
+}
+
+
+.inputreg {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid rgb(51, 173, 157);
+    padding:  10px 10px;
+    width: 280px;
+    border-radius: 24px;
+    transition: 0.3s;
+}
+
+.inputreg:focus {
+    border: 2px solid rgb(66, 236, 94);
+    width: 350px;
+    /* outline: none !important; */
+}
+
+.noOutline:focus {
+    outline: none !important;
+}
