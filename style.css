@@ -3,7 +3,9 @@ html {
     padding: 0;
 }
 
-
+.hide {
+    display: none;
+}
 #addcontact {
     height: 80px;
     /* background-color: grey; */
@@ -15,15 +17,16 @@ html {
     padding-top: 20px;
 }
 
-#createnew {
+#createnew, #addContact {
     height: 40px;
     width: 120px;
     border-radius: 20px;
     border: 1px solid rgb(66, 236, 94);
     background-color: whitesmoke;
+    color: black;
 }
 
-#createnew:hover {
+#createnew:hover, #addContact:hover {
     background-color: rgb(66, 236, 94);
     color: whitesmoke;
 }
@@ -65,4 +68,14 @@ html {
 
 .noOutline:focus {
     outline: none !important;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.card {
+    margin: 10px;
 }
